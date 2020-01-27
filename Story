@@ -1,0 +1,36 @@
+So this is a work in progress but here is the gist of what I hope to achieve. (Also feel free to
+make suggestions and tweaks if you see fit because now that it is both our projects I want you to
+love it as much as I hope to)
+
+Alright...
+
+So... the character will wake up from a pod (like a cryochamber) into a room full of darkness.
+The tutorial will follow as thusly, they will learn how to open doors and interact with objects
+once they reach the door (E) will pop up. From there they will wander the halls which will be a
+set path of sorts but will eventually lead out onto a ledge. The player has just left the rusted
+remains of a ship and now follow the twisting paths of the crag all the while learning how to gain
+health (picking berries from a nearby bush which simultaneously teaches them they have an
+inventory) and also that they can pick up weapons(still debating whether having a plethra of
+weapons or just 3 set weapons will be sufficient).
+From there they will enter a chamber in the side of the mountain that has a well inside. A tablet
+will be next to the center stating the purpose of this dungeon (a rhyme of courage, the soul, and
+immortality or wish giving)
+Now from here the player will jump down and the screen will fade to black. The starting area will
+always be "The Ruins". From here they will wander 19 randomly generated rooms solving puzzles that
+will be sperate to each room but link in some way or another all the while fighting enemies and
+getting loot. The final room will only be generated once the player reaches a certain amount of
+rooms or completes certain puzzles (still to be determined) and from there the next room they
+enter will be the boss battle. They fight the boss and continue to the next randomly generated
+and selected level. The story will continue like this (still working on the details but every
+level has been thought of) all the while learning more about themselves and the dungeon they
+are in.
+By the time they have reached the 15th level the player should realize that the dungeon possesses
+other worldly properties of time and space alteration and that they have been traveling back and
+forth through time. Now the ending is still up in the air but I am feeling like the prize or the
+object at the end be some sort of alien looking sphere/meteorite that will instantly shock and
+kill anything living. The player realizes this but doesn't die revealing that they are made of
+some sort of inanimate material or wax (they are a clone of some sort carrying forth their
+mission for some man who died eons ago).
+
+From here the story gets a little fuzzy but for now this is the end. Again, still a work in
+progress so if you wanna tweak things by all means. (Just label what you did please :)   )

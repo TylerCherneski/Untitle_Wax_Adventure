@@ -1,0 +1,22 @@
+#####TASKS#####
+
+UNFINISHED
+
+-Finish Animations (I'm making idle, movement, attack, and death animations at the moment
+for the enemies)
+-Room Building (I am currently in the process of building the layouts with sprites but if you have
+a better method by all means tell me and I'll see how I can build them)
+-Music and Sound Effects (I'm toning the music load down a bit to 3 intro songs but every
+different location needs sperate music)
+-Inventory and Loot Collision Detection
+
+TWEAKING
+
+-Character Attack Animations when left mouse click
+-Collision
+
+FINISHED
+
+-Character Movement and Wall Collision
+-Enemy Designs
+-Weapon Designs

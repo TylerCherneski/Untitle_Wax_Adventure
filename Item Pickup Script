@@ -1,0 +1,13 @@
+//Place in a script and name as "itemPickup"
+
+var item; 
+item = argument0;
+
+for (i = 0; i <= 4; i+=1){
+    for (j = 0; j <= 4; j += 1){
+        if global.inventory[i,j] = 0{
+            global.inventory[i,j] = item;
+            return global.inventory
+        }
+    }
+}

@@ -1,0 +1,40 @@
+//Place in create event
+inventory[0,0] = 0;
+inventory[0,1] = 0;
+inventory[0,2] = 0;
+inventory[0,3] = 0;
+inventory[0,4] = 0;
+inventory[1,0] = 0;
+inventory[1,1] = 0;
+inventory[1,2] = 0;
+inventory[1,3] = 0;
+inventory[1,4] = 0;
+inventory[2,0] = 0;
+inventory[2,1] = 0;
+inventory[2,2] = 0;
+inventory[2,3] = 0;
+inventory[2,4] = 0;
+inventory[3,0] = 0;
+inventory[3,1] = 0;
+inventory[3,2] = 0;
+inventory[3,3] = 0;
+inventory[3,4] = 0;
+inventory[4,0] = 0;
+inventory[4,1] = 0;
+inventory[4,2] = 0;
+inventory[4,3] = 0;
+inventory[4,4] = 0;
+
+/*
+
+inventory[a,b]
+           [b]
+           
+       [0,0,0,0,0]
+       [0,0,0,0,0]
+ [a]   [0,0,0,0,0]
+       [0,0,0,0,0]
+       [0,0,0,0,0]
+
+
+Now you can say a sword has an inventory value of 1 and make the UI to show that

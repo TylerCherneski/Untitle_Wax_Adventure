@@ -1,0 +1,39 @@
+key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+key_up = keyboard_check(vk_up) or keyboard_check(ord("W"));
+key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+
+//sp = [speed];
+//obj_wall = [master wall];
+    //You can have a master wall object.
+    //Then any other walls with their own sprite, parent it to the master wall
+if key_left{
+    direction = 180;
+}
+else if key_right{
+    direction = 0;
+}
+else if key_up{
+    direction = 90;
+}
+else if key_down{
+    direction = 270;
+}
+
+if key_left and direction = 180 and !place_meeting(x-sp-1,y,obj_wall){
+    //sprite_index = [sprite];
+    x -= sp;
+}
+else if key_right and direction = 0 and !place_meeting(x+sp+1,y,obj_wall){
+    //sprite_index = [sprite];
+    x += sp;
+}
+else if key_up and direction = 90 and !place_meeting(x,y-sp-1,obj_wall){
+    //sprite_index = [sprite];
+    y -= sp;
+}
+else if key_down and direction = 270 and !place_meeting(x,y+sp+1,obj_wall){
+    //sprite_index = [sprite];
+    y += sp;
+}
+

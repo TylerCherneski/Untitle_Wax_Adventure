@@ -1,0 +1,76 @@
+key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+key_up = keyboard_check(vk_up) or keyboard_check(ord("W"));
+key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+
+pushed = key_left + key_up + key_right + key_down;
+
+sp = 1;
+//obj_wall = [master wall];
+    //You can have a master wall object.
+    //Then any other walls with their own sprite, parent it to the master wall
+
+    
+//Movement
+
+
+if key_left and !place_meeting(x-sp-1,y,obj_wall){
+    //sprite_index = [sprite];
+    x -= sp;
+    direction = 180;
+}
+if key_right and !place_meeting(x+sp+1,y,obj_wall){
+    //sprite_index = [sprite];
+    x += sp;
+    direction = 0;
+}
+if key_up and !place_meeting(x,y-sp-1,obj_wall){
+    //sprite_index = [sprite];
+    y -= sp;
+    direction = 90;
+}
+if key_down and !place_meeting(x,y+sp+1,obj_wall){
+    //sprite_index = [sprite];
+    y += sp;
+    direction = 270;
+}
+
+
+//Diagonal Movement for animations
+
+
+if key_left and (key_up or key_down){
+    direction = 180;
+    //sprite_index = [side sprite]
+}
+if key_right and (key_up or key_down){
+    direction = 0;
+    //sprite_index = [side sprite]
+}
+
+
+//Sword Swing
+
+
+if mouse_check_button_pressed(mb_left){
+    image_speed = 1
+    //If  you want to slow movement speed during the swing, then use:
+    //sp /= 2;
+    if direction = 0{
+        //sprite_index = [side sprite]
+        image_xscale = 1;        
+    }
+    if direction = 90{
+        //sprite_index = [up sprite];
+        image_yscale = 1;
+    }
+    if direction = 180{
+        //sprite_index = [side sprite];
+        image_xscale = -1;
+    }
+    if direction = 270{
+        //sprite_index = [down_sprite];
+        image_yscale = 1
+    }
+}
+

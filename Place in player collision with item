@@ -1,0 +1,6 @@
+//Put in collision event with iventory item
+
+item = instance_nearest(x,y,obj_item)
+//Change obj_item for the item that the player would be colliding with.
+
+itemPickup(item)
